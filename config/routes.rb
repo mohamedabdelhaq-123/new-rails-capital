@@ -7,8 +7,7 @@ Rails.application.routes.draw do
 
   get "/users", to: "users#index" #controller#action/endpoint
   get "/users/:id", to: "users#show"
-  
-  post "/users", to: "users#create"
+  #next step is the controller
 
   # Render dynamic PWA files from app/views/pwa/* (remember to link manifest in application.html.erb)
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
